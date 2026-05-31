@@ -6,6 +6,10 @@ create database employee_data;
 
 use employee_data;
 
+/*To see all databases*/
+
+show databases;
+
 /*Table creation*/
 
 create table data(
@@ -15,3 +19,6 @@ create table data(
     last_name varchar(20) not null,
     age int not null,
 );
+
+/*Describing the structure*/
+desc data;
