@@ -22,3 +22,9 @@ create table data(
 
 /*Describing the structure*/
 desc data;
+
+/*Insert values*/
+insert into employee_data(First_name,mid_name,last_name,age) 
+values("akash","jyoti","kalita"21);
+
+
